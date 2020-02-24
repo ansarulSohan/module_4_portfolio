@@ -8,7 +8,7 @@
 }
 
 .top-banner {
-  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.0), rgba(1, 118, 255, 0.6)), url(img/top-banner.png);
+  background-image: url(img/top-banner.png);
   background-size: cover;
   height: 100vh;
 }
@@ -19,7 +19,10 @@
 
 .description {
   font-size: 150%;
+  padding-top: 100px;
 }
+
+
 
 .title {
   font-size: 250%;
@@ -27,6 +30,7 @@
 }
 
 .half-width {
+  margin-top: 20px;
   width: 40%;
   float: left;
   padding: 2% 5%;
@@ -37,16 +41,14 @@
   padding: 5% 0%;
 }
 
-
-
 .button:link,
 .button:visited {
   display: inline-block;
-  background-color: #e67e22;
+  background-color: #e6af19;
   margin-top: 10px;
   padding: 10px 15px;
   text-decoration: none;
-  border: 2px solid #e67e22;
+  border: 2px solid #e6af19;
   border-radius: 10px;
   color: #313131;
   font-weight: 800;
@@ -55,8 +57,15 @@
 
 .button:hover,
 .button:active {
-  background-color: #f39c12;
-  border: 2px solid #f39c12;
+  background-color: #f2f201;
+  border: 2px solid #f2f201;
   transform: scale(1.1);
   transition: background-color 0.3s, border 0.3s, transform 0.3s;
+}
+
+.dream {
+  background-image: url(img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
 }
