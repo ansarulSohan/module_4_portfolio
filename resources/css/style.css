@@ -13,13 +13,13 @@
   height: 100vh;
 }
 
-.name-highlight {
+.orange-highlight {
   color: #e67e22;
 }
 
-.description {
+.description-caption {
   font-size: 150%;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 
@@ -30,10 +30,10 @@
 }
 
 .half-width {
-  margin-top: 20px;
-  width: 40%;
+  margin: 20px 2%;
+  padding: 2% 3%;
+  width: 35%;
   float: left;
-  padding: 2% 5%;
 }
 
 .half-width img {
@@ -77,4 +77,24 @@
   height: 100vh;
   margin-top: 15px;
   padding-top: 5px;
+}
+
+.box-shadow {
+  box-shadow: 10px 10px 20px gray;
+}
+
+#full-stack-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(#ff968a, #f22c08);
+  border-image-slice: 1;
+}
+
+#baby-dev-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, cyan, #2222ff);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
 }
